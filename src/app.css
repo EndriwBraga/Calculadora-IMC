@@ -1,0 +1,65 @@
+
+.app {
+  width: 100%;
+  height: 100vh;
+  /* display: flex; > por padrão fica um campo do lado do outro */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; Faz com que fique um a baixo do outro */
+  flex-direction: column;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+span{
+    margin: 12px 0;
+}
+
+.area-input {
+     width: 500px;
+     display: flex;
+     flex-direction: column;
+    /*align-items: center; > de alguma forma diminui o tamando dos inputs e alinhou ao centro. */
+     align-items: center;
+}
+
+.area-input input {
+    /* width: 100%; fez com que pegassem 500px de comprimento */
+    width: 100%;
+    /* margin-bottom: 12px; criou o afastamento entre os inputs */
+    margin-bottom: 12px;
+    /*  height: 46px; > Aumentou o tamanho dos inputs */
+    height: 46px;
+    /*  background-color: #121212; pintou de preto dentro dos inputs */
+    background-color: #121212;
+    border: 0;
+    /*border-radius: 6px; é para arredondar a borda*/
+    border-radius: 6px;
+    /* color: #FFF; texto dentro do input fica branco */
+    color: #FFF;
+    /* padding: 0 12px; da 0 de espaçamento interno p cima e para baixo e da 12 px esquerda e direita dentro do input */
+    padding: 0 12px;
+    /* font-size: 18px; aumentou o tamanho das letras dentro do input para 18 px */
+    font-size: 18px;
+}
+
+.area-input button {
+
+    /* width: 100%; > faz com que o button fique */
+    width: 100%;
+    /*  height: 46px; > Aumentou o tamanho do button p ficar padrao */
+    height: 46px;
+    border: 0;
+    border-radius: 6px;
+    background-color: #357AFF;
+    color: #fff;
+    font-size: 18px;
+}
+
+h2 {
+    /* criou o espaçamento entre CALCULAR e a frase Seu IMC foi 25, você esta a baixo do peso! */
+    margin-top: 28px;
+}
